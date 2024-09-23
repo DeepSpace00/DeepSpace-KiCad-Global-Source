@@ -1924,14 +1924,15 @@
 		)
 	)
 	(symbol "D_Schottky"
+		(pin_numbers hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0 1.27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -1973,6 +1974,42 @@
 		(symbol "D_Schottky_0_1"
 			(polyline
 				(pts
+					(xy 0.635 -0.635) (xy 0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.635) (xy 0.254 -0.635) (xy 0.254 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0.635) (xy 1.016 0.635) (xy 1.016 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -0.635 0.635) (xy -0.635 -0.635) (xy 0.635 0) (xy -0.635 0.635)
 				)
 				(stroke
@@ -1987,7 +2024,7 @@
 		(symbol "D_Schottky_1_0"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 1.27)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
@@ -2005,7 +2042,7 @@
 			)
 			(pin passive line
 				(at 2.54 0 180)
-				(length 1.27)
+				(length 1.905)
 				(name ""
 					(effects
 						(font

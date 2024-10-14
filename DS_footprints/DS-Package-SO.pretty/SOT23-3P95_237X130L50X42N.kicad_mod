@@ -18,7 +18,7 @@
 	(property "Value" "SOT23-3P95_285X112L50X42N"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "77cbb3f3-0b77-4fca-932b-9ed536445fcb")
 		(effects
@@ -241,7 +241,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "6c872b8f-7d78-4bdd-bc87-7f5c814ace3c")
 		(effects

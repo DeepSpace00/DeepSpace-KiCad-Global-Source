@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -6 0)
+		(at 0 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ad864cd8-e7c9-4847-aa0d-a3b39078334b")
@@ -18,7 +18,7 @@
 	(property "Value" "SOT223-4"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "0d5544a6-8018-4fdc-9603-e3e3507e5437")
 		(effects
@@ -334,6 +334,26 @@
 		(layer "F.CrtYd")
 		(uuid "c21e4fb8-867a-4e30-a5cb-597b6bab8bdc")
 	)
+	(fp_line
+		(start -0.35 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f9b5296-f54a-4fec-83f3-77fd10ecb6fe")
+	)
+	(fp_line
+		(start 0 -0.35)
+		(end 0 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "866511f1-1055-4ec1-91b7-cdd7e46fcc9e")
+	)
 	(fp_rect
 		(start -3.35 -1.85)
 		(end 3.35 1.85)
@@ -345,10 +365,21 @@
 		(layer "F.Fab")
 		(uuid "7008ae65-f5a2-411b-ae30-eaf51dbd1fd2")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "339f69e5-b338-41a8-9ca0-1dd79f3129b2")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "45f9ccee-378d-4f49-9e11-b31bb48160d7")
 		(effects

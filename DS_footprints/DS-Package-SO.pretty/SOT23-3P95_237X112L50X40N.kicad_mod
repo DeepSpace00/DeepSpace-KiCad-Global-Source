@@ -17,7 +17,7 @@
 	)
 	(property "Value" "Val**"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "5e1c7155-ce3c-4f7b-a686-ddb35fd92cb1")
 		(effects
@@ -488,7 +488,7 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "5acaff39-a007-4f5e-969c-d13d83ffcde4")
 		(effects

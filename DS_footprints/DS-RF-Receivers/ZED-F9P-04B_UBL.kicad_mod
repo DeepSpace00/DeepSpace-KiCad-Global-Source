@@ -20,7 +20,7 @@
 	(property "Value" "ZED-F9P-04B_UBL"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "592047b4-cb21-4c71-a0b8-ce221d162ae3")
 		(effects
@@ -349,6 +349,26 @@
 		(uuid "cd33e368-a3b9-49d5-80b9-3b8f2f958a2c")
 	)
 	(fp_line
+		(start -0.35 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aca2a8bc-d357-4826-9c1a-8ce4e78630f1")
+	)
+	(fp_line
+		(start 0 -0.35)
+		(end 0 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47462691-0524-47cd-b361-0a4c4281fa0f")
+	)
+	(fp_line
 		(start 8.4963 -10.9982)
 		(end -8.4963 -10.9982)
 		(stroke
@@ -368,10 +388,21 @@
 		(layer "F.Fab")
 		(uuid "9b8f57ce-47aa-47ac-be5d-01bbf0da2d22")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e63d4172-e7a8-4b9c-b638-2b04afe13f28")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.1")
 		(hide yes)
 		(uuid "09998868-709b-4827-9c0e-4a81db89da30")
 		(effects

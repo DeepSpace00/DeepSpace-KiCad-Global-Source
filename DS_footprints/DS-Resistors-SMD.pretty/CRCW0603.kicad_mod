@@ -1,4 +1,4 @@
-(footprint "RESC160X80X55L30N"
+(footprint "CRCW0603"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -18,7 +18,8 @@
 	)
 	(property "Value" "Val**"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "User.1")
+		(hide yes)
 		(uuid "260400d5-4942-4f1a-8360-5c2f4d278620")
 		(effects
 			(font
@@ -357,7 +358,8 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "User.1")
+		(hide yes)
 		(uuid "0445e2bb-58e5-4552-8bd2-fe797c325374")
 		(effects
 			(font

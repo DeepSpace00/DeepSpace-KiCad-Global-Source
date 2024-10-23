@@ -1,0 +1,259 @@
+(footprint "HCM1A1105V2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Chip; 2.50 mm L X 2.00 mm W X 1.20 mm H body")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "bbdeef61-3ad4-4941-9d1b-8f59736932e8")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "User.1")
+		(hide yes)
+		(uuid "018a6bc0-a0a2-4228-9fa7-39db5a003e8c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b405809-95c1-4962-98b8-927c49093013")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90c91caf-8578-4754-b443-ebff08096843")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e259214-3d25-4fc8-b8e4-7fcc01f93b82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.72 -2.31)
+		(end -5.72 -5.27)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0b8b112-05f8-4476-a186-d412e05ccf19")
+	)
+	(fp_line
+		(start -5.72 5.27)
+		(end -5.72 2.31)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f55972b7-2bf9-48d8-9758-6489c206419e")
+	)
+	(fp_line
+		(start -5.72 5.27)
+		(end 5.72 5.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e01b63-4d94-4870-b1c7-0078bddfc0d1")
+	)
+	(fp_line
+		(start 5.72 -5.27)
+		(end -5.72 -5.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b98336ee-d4d4-4e58-915a-964dd8c33d45")
+	)
+	(fp_line
+		(start 5.72 -5.27)
+		(end 5.72 -2.31)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40848583-efdf-41ff-b9de-c89a7023368b")
+	)
+	(fp_line
+		(start 5.72 2.31)
+		(end 5.72 5.27)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "809ea7bc-2f23-4d5a-a90a-e3ffc518215d")
+	)
+	(fp_circle
+		(center 7.09 0)
+		(end 7.34 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "56dd9c33-a678-40a0-8846-45b4997ecfac")
+	)
+	(fp_rect
+		(start -5.4 -5)
+		(end 5.4 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "7071dfaf-2269-4380-ba1b-11ac3d6c736a")
+	)
+	(fp_rect
+		(start -5.4 -1.35)
+		(end -3.05 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "70d86205-7548-4da6-8b33-496f90e4b386")
+	)
+	(fp_rect
+		(start 5.4 -1.35)
+		(end 3.05 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "b7b04e67-774c-4d32-be7a-a224f392d841")
+	)
+	(fp_rect
+		(start -6.75 -6.5)
+		(end 6.75 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0b9f1b37-a13c-4367-b7ec-25d340bef77d")
+	)
+	(fp_line
+		(start 0 -0.35)
+		(end 0 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "50703d22-b1fd-4349-ac3a-13aeaa572bff")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end -0.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f275930-049c-4040-8ec0-3ba998b9b5df")
+	)
+	(fp_rect
+		(start -5.6 -5.15)
+		(end 5.6 5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "efd98095-0bb1-42dc-aaae-aaf7efa3fe1e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "723bf35f-7deb-43c0-a71d-41407d723fe5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "User.1")
+		(hide yes)
+		(uuid "17f90aee-594d-4426-a956-318ebcaecd7b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.475 0)
+		(size 3.55 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c99de30c-e0f6-4927-b37a-853ec5d04f56")
+	)
+	(pad "2" smd rect
+		(at -4.475 0)
+		(size 3.55 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2497e96-e1c0-462b-bd07-c4f874a0582d")
+	)
+	(model ":DESTINATION_SPACE_MODELS:Inductor_SMD/IND_IHHP-1008AB-01_VIS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

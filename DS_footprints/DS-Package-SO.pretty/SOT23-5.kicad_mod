@@ -558,34 +558,39 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.95 1.139 90)
 		(size 1.139 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "2f84f20d-6c06-4d8a-994a-064e849cb14c")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 1.139 90)
 		(size 1.139 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "8f3978ca-d867-422c-a885-f3c38b6f5f65")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.95 1.139 90)
 		(size 1.139 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "ed203780-357a-4d07-b3d0-60e2d775e00f")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.95 -1.139 90)
 		(size 1.139 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "af3e293b-94ec-4f19-936b-f70608178767")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at -0.95 -1.139 90)
 		(size 1.139 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "3ed483cb-6221-433f-92f6-a17108fbee59")
 	)
 	(model "E:/OneDrive/work/destinationSpace/development/hardware/.sharedResources/kicad/Destination_Space_Master/.models/AP2112K-3.3TRG1--3DModel-STEP-1.STEP"

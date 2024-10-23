@@ -328,16 +328,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.93 0)
 		(size 0.87 1.42)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "e6c2b15d-355c-4320-ade6-47138ee60af2")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.93 0)
 		(size 0.87 1.42)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "a3762fd0-f2c4-46ce-bdce-7c4b86580fd8")
 	)
 	(model ":DESTINATION_SPACE_MODELS:Resistor_SMD/CRCW0805.STEP"

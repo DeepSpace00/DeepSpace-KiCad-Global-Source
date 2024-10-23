@@ -327,16 +327,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.915 0)
 		(size 0.985 1.465)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "4aca7493-ab57-4943-a23c-c9676898ce0d")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.915 0)
 		(size 0.985 1.465)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "bae29ca8-999c-4843-88f7-e96b01b6e3f1")
 	)
 	(model ":DESTINATION_SPACE_MODELS:Inductor_SMD/IND_VISHAY_IMC0805-01_VIS.step"

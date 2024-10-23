@@ -368,16 +368,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 0.871 0.97)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "24ad9a69-1d75-4f90-bede-d21d4f167bed")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.871 0.97)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "4717f992-b23d-4379-8a5b-1022c2ee3f0a")
 	)
 	(model ":DESTINATION_SPACE_MODELS:Capacitor_Ceramic_SMD/C0603C104K5RACTU.stp"

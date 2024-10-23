@@ -558,34 +558,39 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.95 1.291 90)
 		(size 0.833 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "521d9c2c-b24f-4f0f-8893-2602d38b520c")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 1.291 90)
 		(size 0.833 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "e6fc36a8-98dd-48ce-9679-0faf6f297ad8")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.95 1.291 90)
 		(size 0.833 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "bcc99c15-ad45-4a6f-a491-3861009c021c")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.95 -1.291 90)
 		(size 0.833 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "6e8b110d-2b3c-437d-b2ee-dd81ee4c6db8")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at -0.95 -1.291 90)
 		(size 0.833 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "71b47003-4d1a-4cdb-ace0-75d20f7edff4")
 	)
 	(model ":DESTINATION_SPACE_MODELS:Package_TO_SOT_SMD/DBV0005A.stp"

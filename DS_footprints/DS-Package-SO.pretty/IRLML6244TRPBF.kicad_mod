@@ -498,22 +498,25 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.95 1.113 90)
 		(size 0.826 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "d5124c9c-fc16-46bc-b203-9e5491231d0d")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.95 1.113 90)
 		(size 0.826 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "cbb122d9-24c9-4198-abf3-f7a1a08b1664")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0 -1.113 90)
 		(size 0.826 0.609)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "eb2af4ea-9439-48d3-a9fd-48f300ff9dca")
 	)
 	(model "${DESTINATION_SPACE_MODELS}/Package_TO_SOT_SMD/IRLML6244TRPBF.STEP"

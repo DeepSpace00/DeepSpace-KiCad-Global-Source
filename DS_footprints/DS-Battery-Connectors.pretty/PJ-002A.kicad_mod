@@ -1,0 +1,167 @@
+(footprint "PJ-002A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3292d261-6a5d-499a-ab33-e95c29a98df4")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "PJ-002A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa5f0dc2-762c-4b92-86fd-ee6b3c122dfd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" "DSE-Connectors-THT:PJ-002A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "784a79d2-2e9c-4da2-bb23-0bfc4a94d6f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "datasheets/CUI-Devices-PJ-002A.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c29fe7ae-5fb0-455c-b3f5-3d6bb8d18e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN PWR JACK 2X5.5MM SOLDER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b92de67-44ca-496c-b4e2-4aaaa6047754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Same Sky"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "784e5f31-9c66-4852-99bd-08b8e79acdb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "PJ-002A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "920602fb-91dc-4a28-a93b-89d546b54d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DKPN" "CP-002A-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "178fcedb-97ab-46df-8b44-826f8b9f58de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.7 -4.5)
+		(end 3.7 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3102dc42-daa5-46c2-bbae-30e309926b10")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a67eff27-9e0f-4124-94c6-165ffe158726")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 3 0)
+		(size 2 4.5)
+		(drill oval 1 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f97240f6-8443-4455-8d4d-c1a057ded0f1")
+	)
+	(pad "2" thru_hole oval
+		(at -3 0)
+		(size 2 4.5)
+		(drill oval 1 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1966517-6bec-4cec-a595-9108f0a0c800")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4.7 90)
+		(size 2 4.25)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11bc938d-e8da-4fc9-8ff2-97f788b5bb75")
+	)
+	(model "${KIPRJMOD}/libraries/3d_models/Same_Sky_PJ-002A.step"
+		(offset
+			(xyz -10.7 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 0)
+		)
+	)
+)

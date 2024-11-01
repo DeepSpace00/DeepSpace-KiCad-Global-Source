@@ -4,14 +4,14 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -16.3 0)
+		(at 0.01 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e5b113b8-5d5a-4686-9566-226a8addcbcd")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.5 0.5)
+				(thickness 0.05)
 			)
 		)
 	)

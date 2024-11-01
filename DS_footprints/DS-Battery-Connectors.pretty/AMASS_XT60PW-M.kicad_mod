@@ -1,0 +1,198 @@
+(footprint "AMASS_XT60PW-M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28fa806f-198d-4458-a1cf-d44e0f6127e9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "AMASS_XT60PW-M"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc2d25fa-b270-483c-9816-246d6da7f56c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a69b4ecc-cc40-4560-b32a-16cc13d2e82d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c337b74b-901f-471a-b104-4e9a472af2e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "084be373-72ae-4c94-8323-d47ad833a6d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.75 -10.35)
+		(end 7.75 7.85)
+		(stroke
+			(width 0.025)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "aba70e10-5a69-4a36-83b0-b9e229e900f2")
+	)
+	(fp_rect
+		(start -7.05 -0.85)
+		(end -6.45 0.85)
+		(stroke
+			(width 0.025)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a448395d-880b-42da-8664-f3799c584820")
+	)
+	(fp_rect
+		(start 6.45 -0.85)
+		(end 7.05 0.85)
+		(stroke
+			(width 0.025)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a1b7379d-7743-409a-a78b-52121c96be0c")
+	)
+	(fp_circle
+		(center -3.6 6)
+		(end -2.3 6)
+		(stroke
+			(width 0.025)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "c42183da-caaa-4fb3-92d0-7b7ac15e20c9")
+	)
+	(fp_circle
+		(center 3.6 6)
+		(end 4.9 6)
+		(stroke
+			(width 0.025)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "1fbbb955-a818-4f6e-b248-3ce310562161")
+	)
+	(fp_line
+		(start -8 -10.6)
+		(end -8 8.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5a13d8c-adcd-4414-a869-33160f76b4fb")
+	)
+	(fp_line
+		(start -8 8.11)
+		(end 8 8.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a89e1e39-481a-4c86-8168-ac2e9a40954b")
+	)
+	(fp_line
+		(start 8 -10.6)
+		(end -8 -10.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48a39f51-a609-466b-8e0c-4e728103d6c3")
+	)
+	(fp_line
+		(start 8 8.11)
+		(end 8 -10.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a8f5db9-4d30-4611-8e9b-80ac1b3177f7")
+	)
+	(pad "1" thru_hole rect
+		(at 3.6 6)
+		(size 3.716 3.716)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "057eb91b-88a8-4e3d-83cf-97c13dbaac38")
+	)
+	(pad "2" thru_hole circle
+		(at -3.6 6)
+		(size 3.716 3.716)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "204bb989-7910-4e3d-9d75-bda18c8cdacb")
+	)
+	(pad "S1" thru_hole oval
+		(at 6.75 0)
+		(size 1.2 2.4)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1ebbd609-5a5b-4e85-a60d-5ece67e95c48")
+	)
+	(pad "S2" thru_hole oval
+		(at -6.75 0)
+		(size 1.2 2.4)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e4dcb2bb-881b-4af4-9d4f-565bd20c2744")
+	)
+)

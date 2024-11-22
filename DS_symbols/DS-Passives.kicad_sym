@@ -1007,6 +1007,32 @@
 				(justify left)
 			)
 		)
+		(symbol "D_TVS_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy -0.635 0) (xy -0.889 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.635 0) (xy 0.889 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "D_TVS_1_0"
 			(pin passive line
 				(at 0 -2.54 90)
@@ -1064,30 +1090,6 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -0.635 0) (xy -0.635 0.254) (xy -0.635 0.381) (xy -0.381 0.381)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0.635 0) (xy 0.635 -0.254) (xy 0.635 -0.381) (xy 0.381 -0.381)
-				)
-				(stroke
-					(width 0.127)
 					(type default)
 				)
 				(fill
@@ -1184,6 +1186,56 @@
 					(size 1.016 1.016)
 				)
 				(justify left)
+			)
+		)
+		(symbol "D_TVS_2CH_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.905 0) (xy -2.159 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.635 0) (xy -0.381 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.635 0) (xy 0.381 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.905 0) (xy 2.159 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "D_TVS_2CH_1_0"
@@ -1309,54 +1361,6 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -1.905 0) (xy -1.905 0.254) (xy -1.905 0.381) (xy -1.651 0.381)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 0) (xy -0.635 0) (xy -0.635 -0.254) (xy -0.635 -0.381) (xy -0.889 -0.381)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 0.635 0) (xy 0.635 0.254) (xy 0.635 0.381) (xy 0.889 0.381)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 1.905 0) (xy 1.905 -0.254) (xy 1.905 -0.381) (xy 1.651 -0.381)
-				)
-				(stroke
-					(width 0.127)
 					(type default)
 				)
 				(fill

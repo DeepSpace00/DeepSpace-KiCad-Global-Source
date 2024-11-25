@@ -1535,8 +1535,8 @@
 		)
 		(symbol "PMOS_DGS_1_0"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 1.905)
+				(at 0 -5.08 90)
+				(length 3.175)
 				(name ""
 					(effects
 						(font
@@ -1553,8 +1553,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
-				(length 3.175)
+				(at 5.08 0 180)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
@@ -1571,7 +1571,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at -5.08 0 0)
 				(length 1.905)
 				(name ""
 					(effects

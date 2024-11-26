@@ -68,6 +68,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "b642cf1e-e48b-4b35-9602-add67eccc5e7")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -80,5 +91,51 @@
 				(thickness 0.05)
 			)
 		)
+	)
+	(pad "1" smd custom
+		(at -1.25 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.75 -1.5)
+						(mid -0.75 0)
+						(end 0.75 1.5)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "613d65f9-90a4-4408-99eb-082fdc190d9f")
+	)
+	(pad "2" smd custom
+		(at 1.25 0 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.75 -1.5)
+						(mid -0.75 0)
+						(end 0.75 1.5)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6cac7bb0-1888-4186-b90b-e54b7bb63ed5")
 	)
 )

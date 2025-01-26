@@ -7470,21 +7470,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 -12.7 0)
+			(at 0 1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Qt Py RP2040"
-			(at 1.27 -10.16 0)
+			(at 0 -1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7506,7 +7506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,8 +7516,8 @@
 		)
 		(symbol "Qt_Py_RP2040_1_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -8.89)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -7527,7 +7527,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 7.62 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -7543,9 +7543,10 @@
 						)
 					)
 				)
+				(alternate "D0" bidirectional line)
 			)
-			(pin bidirectional line
-				(at 10.16 5.08 180)
+			(pin input line
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -7561,9 +7562,10 @@
 						)
 					)
 				)
+				(alternate "D9" bidirectional line)
 			)
-			(pin bidirectional line
-				(at 10.16 7.62 180)
+			(pin output line
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -7579,9 +7581,10 @@
 						)
 					)
 				)
+				(alternate "D10" bidirectional line)
 			)
 			(pin power_out line
-				(at 1.27 11.43 270)
+				(at 2.54 12.7 270)
 				(length 2.54)
 				(name "+3V3"
 					(effects
@@ -7599,7 +7602,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -11.43 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7617,7 +7620,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 11.43 270)
+				(at -2.54 12.7 270)
 				(length 2.54)
 				(name "+5V"
 					(effects
@@ -7635,7 +7638,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 5.08 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -7651,9 +7654,10 @@
 						)
 					)
 				)
+				(alternate "D1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -7669,9 +7673,10 @@
 						)
 					)
 				)
+				(alternate "D2" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -7687,9 +7692,10 @@
 						)
 					)
 				)
+				(alternate "D3" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 10.16 -2.54 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -7705,9 +7711,10 @@
 						)
 					)
 				)
+				(alternate "D4" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 10.16 -5.08 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -7723,9 +7730,10 @@
 						)
 					)
 				)
+				(alternate "D5" bidirectional line)
 			)
-			(pin bidirectional line
-				(at -10.16 -5.08 0)
+			(pin output line
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -7741,9 +7749,10 @@
 						)
 					)
 				)
+				(alternate "D6" bidirectional line)
 			)
-			(pin bidirectional line
-				(at -10.16 -7.62 0)
+			(pin input line
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -7759,9 +7768,10 @@
 						)
 					)
 				)
+				(alternate "D7" bidirectional line)
 			)
-			(pin bidirectional line
-				(at 10.16 2.54 180)
+			(pin output line
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -7777,6 +7787,7 @@
 						)
 					)
 				)
+				(alternate "D8" bidirectional line)
 			)
 		)
 	)

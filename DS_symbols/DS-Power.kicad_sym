@@ -1,12 +1,16 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "+12V"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,7 +83,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -91,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -122,12 +126,143 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "+1V1"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 0 3.556 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+1V1_0_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+1V1_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "+1V8"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -200,7 +335,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -212,7 +347,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -243,12 +378,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "+3V3"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -321,7 +461,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -333,7 +473,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -364,12 +504,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "+3V3_OUT"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -442,7 +587,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -454,7 +599,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -485,12 +630,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "+3V8"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -563,7 +713,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -575,7 +725,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -606,12 +756,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "+5V"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -684,7 +839,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -696,7 +851,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -727,12 +882,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AGND"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -824,12 +984,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT+"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -902,7 +1067,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -914,7 +1079,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -945,12 +1110,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT-"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1011,7 +1181,7 @@
 		(symbol "BAT-_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -2.54)
+					(xy 0 0) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1023,7 +1193,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -2.54)
+					(xy 0 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1066,12 +1236,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CGND"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1168,7 +1343,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy -0.635 -2.54)
+					(xy 0 0) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1180,7 +1355,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -1.27)
+					(xy 0 -1.27) (xy -0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1235,12 +1410,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CHG+"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1313,7 +1493,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1325,7 +1505,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1356,12 +1536,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CHG-"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1422,7 +1607,7 @@
 		(symbol "CHG-_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -2.54)
+					(xy 0 0) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1434,7 +1619,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -2.54)
+					(xy 0 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1477,12 +1662,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GND"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1634,12 +1824,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PACK+"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1712,7 +1907,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1724,7 +1919,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1755,12 +1950,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PACK-"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1821,7 +2021,7 @@
 		(symbol "PACK-_0_1"
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -2.54)
+					(xy 0 0) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1833,7 +2033,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -2.54)
+					(xy 0 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1876,12 +2076,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PWR_FLAG"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1942,7 +2147,7 @@
 		(symbol "PWR_FLAG_0_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 1.27)
+					(xy 0 1.27) (xy -1.27 1.905) (xy 0 2.54) (xy 1.27 1.905) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1954,7 +2159,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -1.27 1.905) (xy 0 2.54) (xy 1.27 1.905) (xy 0 1.27)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1985,12 +2190,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VBAT"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2063,7 +2273,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2075,7 +2285,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2106,12 +2316,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VBUS"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2184,7 +2399,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2196,7 +2411,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2227,12 +2442,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VCC"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2305,7 +2525,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2317,7 +2537,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2348,12 +2568,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VCC_RF"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2426,7 +2651,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2438,7 +2663,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2469,12 +2694,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VDD"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2547,7 +2777,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2559,7 +2789,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2590,12 +2820,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VDDA"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2668,7 +2903,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2680,7 +2915,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2711,12 +2946,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VIN"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2789,7 +3029,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2801,7 +3041,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2832,12 +3072,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VSIM"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2910,7 +3155,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2922,7 +3167,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2953,12 +3198,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VSS"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3050,12 +3300,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VSYS"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3128,7 +3383,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3140,7 +3395,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3171,12 +3426,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "VUSB"
 		(power)
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3249,7 +3509,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3261,7 +3521,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 1.27 2.54)
+					(xy 0 0) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3292,5 +3552,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

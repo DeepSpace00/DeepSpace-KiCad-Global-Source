@@ -1,4 +1,4 @@
-(footprint "MLCC1206"
+(footprint "GCM1206"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.713 -0.96)
-		(end 0.713 -0.96)
+		(start -0.725 -0.96)
+		(end 0.725 -0.96)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "8c097ce7-d0df-4250-a533-65b197c7810d")
 	)
 	(fp_line
-		(start -0.713 0.96)
-		(end 0.713 0.96)
+		(start -0.725 0.96)
+		(end 0.725 0.96)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -194,8 +194,8 @@
 		(uuid "0074e8a3-9824-454f-a7cf-4da0ebc1ad7e")
 	)
 	(fp_line
-		(start -2.258 -1.108)
-		(end 2.258 -1.108)
+		(start -2.4 -1.108)
+		(end 2.4 -1.108)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -204,8 +204,8 @@
 		(uuid "8cc920b4-b71f-4948-a71d-10104b88f233")
 	)
 	(fp_line
-		(start -2.258 1.108)
-		(end -2.258 -1.108)
+		(start -2.4 1.108)
+		(end -2.4 -1.108)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -214,8 +214,8 @@
 		(uuid "36740f9f-8c30-4cb6-bc77-a030674613ea")
 	)
 	(fp_line
-		(start 2.258 -1.108)
-		(end 2.258 1.108)
+		(start 2.4 -1.108)
+		(end 2.4 1.108)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -224,8 +224,8 @@
 		(uuid "b627ebb0-4d42-417e-89b3-c257f96ccef8")
 	)
 	(fp_line
-		(start 2.258 1.108)
-		(end -2.258 1.108)
+		(start 2.4 1.108)
+		(end -2.4 1.108)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -317,15 +317,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.475 0)
-		(size 1.165 1.815)
+		(at -1.6 0)
+		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "92bdbd5b-7577-4899-beea-6f8e71d72e4d")
 	)
 	(pad "2" smd roundrect
-		(at 1.475 0)
-		(size 1.165 1.815)
+		(at 1.6 0)
+		(size 1.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "220064a7-8e52-46ae-afc1-f437cc932bfb")

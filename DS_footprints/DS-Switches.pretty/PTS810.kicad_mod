@@ -1,17 +1,17 @@
 (footprint "PTS810"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Antenna, Dual Flat No-Lead (DFN) 4 pins, 4.15 mm pitch; 4.20 mm L X 3.20 mm W X 2.50 mm H body")
 	(property "Reference" "REF**"
-		(at 0 -2.54 0)
+		(at 0 -2.5 0)
 		(layer "F.SilkS")
 		(uuid "47921ff8-bd86-499c-8dd3-47dcf5619f31")
 		(effects
 			(font
-				(size 1.2 1.2)
+				(size 0.75 0.75)
 				(thickness 0.12)
+				(bold yes)
 			)
 		)
 	)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.05)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4379d3ab-dcb4-489f-ad62-d2625973e03e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -103,17 +91,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c3a36f0a-7933-4482-8ea2-879a608a734f")
-	)
-	(fp_circle
-		(center -3.15 -1.075)
-		(end -3.15 -0.95)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "ac1f0b3f-ff17-4fab-9236-b8c11580b320")
 	)
 	(fp_line
 		(start -2.575 -1.35)
@@ -432,7 +409,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c4d74fcb-019a-425e-9df7-b0665281286c")
 	)
@@ -451,27 +428,28 @@
 	(pad "1" smd rect
 		(at -2.075 -1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "22d98479-710e-4267-b878-285e09dac55f")
 	)
 	(pad "2" smd rect
 		(at 2.075 -1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4f5f6e11-a16c-4b9b-bf2c-7f2e390f8b9e")
 	)
 	(pad "3" smd rect
 		(at -2.075 1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78bdb36c-3b29-4689-a0de-69293bbf6ab1")
 	)
 	(pad "4" smd rect
 		(at 2.075 1.075)
 		(size 1.05 0.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "12ff873b-702f-45a0-a680-98daf564247c")
 	)
+	(embedded_fonts no)
 	(model "E:/OneDrive/work/destinationSpace/development/hardware/.sharedResources/kicad/Destination_Space_Master/.models/PTS810 SJK 250 SMTR LFS--3DModel-STEP-1.STEP"
 		(offset
 			(xyz 0 0 0)

@@ -1,9 +1,9 @@
 (footprint "CRCW1206"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Resistor, Chip; 3.05 mm L X 1.55 mm W X 0.65 mm H body")
+	(descr "Resistor, Chip; 3.20 mm L X 1.60 mm W X 0.55 mm H body")
 	(tags "1206; 3216")
 	(property "Reference" "REF**"
 		(at 0 -1.6 0)
@@ -25,18 +25,6 @@
 			(font
 				(size 1.05 1.05)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6054be61-7ecd-401f-96c7-5a5626a6b2b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -66,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.82 -0.885)
-		(end 0.82 -0.885)
+		(start -0.82 -0.9)
+		(end 0.82 -0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,8 +64,8 @@
 		(uuid "fb476a12-955c-4c6d-8348-405bd511a1c8")
 	)
 	(fp_line
-		(start -0.82 0.885)
-		(end 0.82 0.885)
+		(start -0.82 0.9)
+		(end 0.82 0.9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,18 +74,8 @@
 		(uuid "843e1205-e6c0-4153-a13b-0a82966985b3")
 	)
 	(fp_line
-		(start -1.525 -0.775)
-		(end -1.175 -0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "082d0650-b1f8-4ac0-99cb-860843bb17b5")
-	)
-	(fp_line
-		(start -1.525 -0.775)
-		(end 1.525 -0.775)
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -106,8 +84,8 @@
 		(uuid "6295f918-ff8e-4c9c-a303-aa509b1bf17e")
 	)
 	(fp_line
-		(start -1.525 0.775)
-		(end -1.525 -0.775)
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -116,18 +94,8 @@
 		(uuid "21d697ee-342f-47e0-a38b-f814b252ec80")
 	)
 	(fp_line
-		(start -1.525 0.775)
-		(end -1.525 -0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "efc4017a-5356-4706-a6e2-eca276f482c1")
-	)
-	(fp_line
-		(start -1.175 -0.775)
-		(end -1.175 0.775)
+		(start -1.15 -0.8)
+		(end -1.15 0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -136,28 +104,8 @@
 		(uuid "4f6e878c-93a0-404c-9725-515c5b5a3abd")
 	)
 	(fp_line
-		(start -1.175 0.775)
-		(end -1.525 0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "5176f026-2911-4964-8c99-df688d7c616f")
-	)
-	(fp_line
-		(start 1.125 -0.775)
-		(end 1.475 -0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "8a25f057-05b8-4a2e-b119-4868914c4ce6")
-	)
-	(fp_line
-		(start 1.125 0.775)
-		(end 1.125 -0.775)
+		(start 1.15 0.8)
+		(end 1.15 -0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -166,28 +114,8 @@
 		(uuid "3e8c5087-31be-4e37-a506-7374ca87ada6")
 	)
 	(fp_line
-		(start 1.475 -0.775)
-		(end 1.475 0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "bdd03995-aaba-4b41-841b-1cf2be1ff9f5")
-	)
-	(fp_line
-		(start 1.475 0.775)
-		(end 1.125 0.775)
-		(stroke
-			(width 0.025)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "4cb46e09-bc0c-48f7-bfe7-ffb800f227b1")
-	)
-	(fp_line
-		(start 1.525 -0.775)
-		(end 1.525 0.775)
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -196,8 +124,8 @@
 		(uuid "b26aa7cd-e8ac-4614-b67a-ad4c79b75fbf")
 	)
 	(fp_line
-		(start 1.525 0.775)
-		(end -1.525 0.775)
+		(start 1.6 0.8)
+		(end -1.6 0.8)
 		(stroke
 			(width 0.025)
 			(type solid)
@@ -312,7 +240,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7aab80e9-33bb-4509-a9ce-d1cf20a2dacb")
 	)
@@ -329,19 +257,20 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.45 0)
-		(size 0.9 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(at -1.425 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2380952381)
 		(uuid "faf6a403-ad1a-40aa-ae37-db6b6e7dc0f4")
 	)
 	(pad "2" smd roundrect
-		(at 1.45 0)
-		(size 0.9 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(at 1.425 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2380952381)
 		(uuid "ad620d33-64b5-4c17-a5e9-ef62acb20c3d")
 	)
+	(embedded_fonts no)
 	(model ":DESTINATION_SPACE_MODELS:Resistor_SMD/CRCW1206.STEP"
 		(offset
 			(xyz 0 0 0)

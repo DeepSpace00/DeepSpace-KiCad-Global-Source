@@ -1,9 +1,9 @@
 (footprint "CRCW0603"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body")
+	(descr "Resistor, Chip; 1.55 mm L X 0.85 mm W X 0.45 mm H body")
 	(tags "0603; 1608")
 	(property "Reference" "REF**"
 		(at 0 -1.2 0)
@@ -25,18 +25,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.05)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e5e6e3f5-2769-4353-8195-dfa273cc9d3a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -352,7 +340,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7630f076-9104-4674-8ed9-0bd9630dbc0f")
 	)
@@ -369,19 +357,20 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.755 0)
-		(size 0.82 0.929)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at -0.75 0)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "df0d4b8c-dab1-480b-bccc-265fcad9a77d")
 	)
 	(pad "2" smd roundrect
-		(at 0.755 0)
-		(size 0.82 0.929)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at 0.75 0)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dfb3d1d1-8728-4df5-a185-b32667849525")
 	)
+	(embedded_fonts no)
 	(model ":DESTINATION_SPACE_MODELS:Resistor_SMD/CRCW0603.STEP"
 		(offset
 			(xyz 0 0 0)

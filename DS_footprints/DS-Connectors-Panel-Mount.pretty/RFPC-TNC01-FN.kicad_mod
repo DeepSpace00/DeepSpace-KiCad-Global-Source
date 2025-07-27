@@ -1,0 +1,85 @@
+(footprint "RFPC-TNC01-FN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5e2fd77-5a47-4bea-b18a-54eb73fc0e8d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67407567-ab35-4f28-af46-a130cd4af562")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "954d01f7-510a-4d07-a6bd-0ded9184dfb5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d551836f-0ba7-4d94-adfd-009061a73555")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_line
+		(start -2.74954 -5.05)
+		(end 2.74954 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2a3f8156-c280-4085-aad4-2507385c1b61")
+	)
+	(fp_arc
+		(start 2.74954 -5.05)
+		(mid 0 5.749997)
+		(end -2.74954 -5.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9cccf8ed-1eec-4c8e-9ebd-490b7d249a4a")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 16 16)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6c440ca5-9cf8-4f27-8f01-29e2696375b0")
+	)
+	(embedded_fonts no)
+)

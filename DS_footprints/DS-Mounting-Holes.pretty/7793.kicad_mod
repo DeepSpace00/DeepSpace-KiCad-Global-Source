@@ -1,0 +1,103 @@
+(footprint "7793"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 Pin Screw Terminal, Power Tap M4 Through Hole, Right Angle")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b15b87bc-b3ae-4250-a64b-f898f14244d8")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f300bd8-429d-4011-885b-3ca9b5f241fc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab0d2114-b8bc-4ca2-a5d1-80594819c7a7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d51ef4c-41a4-417f-9929-fd12f02cd160")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
+	(fp_rect
+		(start -3.75 -3.92)
+		(end 3.75 7.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e5471c18-e484-43c3-a975-51aca15bd541")
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 -2.5)
+		(size 2.75 2.75)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "466e0328-6ee0-4420-a1f7-f3b5509e9b40")
+	)
+	(pad "2" thru_hole circle
+		(at -3.75 2.5)
+		(size 2.75 2.75)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cca2d3d8-a54c-4c91-991a-96392e91cb5c")
+	)
+	(pad "3" thru_hole circle
+		(at 3.75 2.5)
+		(size 2.75 2.75)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22116084-d5a1-48a8-a342-1b588dfb201a")
+	)
+	(pad "4" thru_hole circle
+		(at 3.75 -2.5)
+		(size 2.75 2.75)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dccb20f-8225-4f55-9b78-080c1db51d04")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,112 @@
+(footprint "M8S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "236c83c9-b464-46ae-af61-fbff588f7113")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M8S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f680dda5-744a-4379-a6d1-372221edc17c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5f28767-6a69-4a61-97ff-c18e147fba23")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "549d699a-0d6f-4c0b-ac38-ffdbac8b60b1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_line
+		(start -4.55 -2.19089)
+		(end -4.55 2.19089)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c60e943b-3996-4c52-8dbd-93c8b26d04c6")
+	)
+	(fp_line
+		(start 4.55 -2.19089)
+		(end 4.55 2.19089)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99f4eda0-013f-4508-aaaf-fb5b66ea1c63")
+	)
+	(fp_arc
+		(start -4.55 -2.19089)
+		(mid 0 -5.05)
+		(end 4.55 -2.19089)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c8379412-179a-4115-b602-947e62103b65")
+	)
+	(fp_arc
+		(start 4.549999 2.19089)
+		(mid 0 5.049999)
+		(end -4.549999 2.19089)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "205b1555-44ed-4581-8814-d8aac2d98cf9")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 12.75 12.75)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d272d8b1-1aca-41bb-a0b3-039c2153ebe6")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 12.75 12.75)
+		(layers "B.Cu" "B.Mask")
+		(uuid "2a287d7b-174e-4b06-acf7-dee2fe217f83")
+	)
+	(embedded_fonts no)
+)

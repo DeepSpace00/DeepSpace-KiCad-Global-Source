@@ -4488,12 +4488,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "INA219AID"
+	(symbol "INA219"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 13.97 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Value" "INA219"
-			(at 0 -1.27 0)
+			(at 0 11.43 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "INA219AID_0_0"
+		(symbol "INA219_0_0"
 			(pin input line
 				(at -12.7 7.62 0)
 				(length 2.54)
@@ -4710,7 +4710,7 @@
 				)
 			)
 		)
-		(symbol "INA219AID_1_1"
+		(symbol "INA219_1_1"
 			(rectangle
 				(start -10.16 10.16)
 				(end 10.16 -10.16)
@@ -6329,12 +6329,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MCP73831/2-SOT-23-5"
+	(symbol "MCP73831"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 3.81 0)
+			(at 0 8.89 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,9 +6377,36 @@
 				(hide yes)
 			)
 		)
-		(symbol "MCP73831/2-SOT-23-5_0_0"
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCP73831_0_0"
 			(pin power_in line
-				(at -7.62 0 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -6395,26 +6423,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "STAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
-				(at 7.62 0 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -6432,7 +6442,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -2.54 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "PROG"
 					(effects
@@ -6449,8 +6459,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -5.08 180)
+		)
+		(symbol "MCP73831_1_0"
+			(pin bidirectional line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "STAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6468,10 +6498,10 @@
 				)
 			)
 		)
-		(symbol "MCP73831/2-SOT-23-5_1_1"
+		(symbol "MCP73831_1_1"
 			(rectangle
-				(start -5.08 2.54)
-				(end 5.08 -7.62)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -9188,6 +9218,207 @@
 			(rectangle
 				(start -12.7 20.32)
 				(end 12.7 -20.32)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS56120x"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 11.43 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS56120x"
+			(at 0 8.89 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps561201.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5-V to 17-V Input, 1-A Synchronous Step-Down Voltage Regulator in 6- Pin SOT-23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS56120x_0_0"
+			(pin power_in line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "VBST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "VFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS56120x_1_1"
+			(rectangle
+				(start -10.16 7.62)
+				(end 10.16 -7.62)
 				(stroke
 					(width 0)
 					(type solid)

@@ -1,0 +1,85 @@
+(footprint "RFPC-SMA14-FN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "89b96209-b1be-4fff-83a9-5c6354142a64")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a313f9-3a93-400e-bab3-800eea0616dc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30299e7f-fd3c-499f-9a67-6c488902a050")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8927ebcd-a754-42b9-80e4-1baa50ab1caa")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_line
+		(start 2.75 -1.73205)
+		(end 2.75 1.73205)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1742c631-24f6-4c56-bd7b-0fc351af6bad")
+	)
+	(fp_arc
+		(start 2.75 1.73205)
+		(mid -3.25 0)
+		(end 2.75 -1.73205)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f6c96d93-50c5-4b64-b2d2-461c9d7b63be")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 9.25 9.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "72ab1188-2faa-41c8-add0-ed13eb4bf3a1")
+	)
+	(embedded_fonts no)
+)

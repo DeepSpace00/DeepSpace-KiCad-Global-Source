@@ -832,7 +832,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D_TVS_2CH"
+	(symbol "D_TVS_2CH_Bidirectional"
 		(pin_numbers
 			(hide yes)
 		)
@@ -924,7 +924,7 @@
 				(justify left)
 			)
 		)
-		(symbol "D_TVS_2CH_0_1"
+		(symbol "D_TVS_2CH_Bidirectional_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0) (xy -1.905 0) (xy -2.159 0.254)
@@ -974,7 +974,7 @@
 				)
 			)
 		)
-		(symbol "D_TVS_2CH_1_0"
+		(symbol "D_TVS_2CH_Bidirectional_1_0"
 			(pin passive line
 				(at -1.27 3.81 270)
 				(length 2.54)
@@ -1030,7 +1030,7 @@
 				)
 			)
 		)
-		(symbol "D_TVS_2CH_1_1"
+		(symbol "D_TVS_2CH_Bidirectional_1_1"
 			(rectangle
 				(start -2.54 2.54)
 				(end 2.54 -2.54)
@@ -1668,7 +1668,257 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D_TVS_4CH"
+	(symbol "D_TVS_2CH_Unidirectional"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 2.794 1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VAL"
+			(at 2.794 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.508 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.508 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional TVS Diode"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "PKG"
+			(at 2.794 -1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(symbol "D_TVS_2CH_Unidirectional_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy -1.905 0.635) (xy -2.159 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy -0.635 0.635) (xy -0.381 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.635) (xy 0.635 0.635) (xy 0.381 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.635) (xy 1.905 0.635) (xy 2.159 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_TVS_2CH_Unidirectional_1_0"
+			(pin passive line
+				(at -1.27 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "D_TVS_2CH_Unidirectional_1_1"
+			(rectangle
+				(start -2.54 1.905)
+				(end 2.54 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.635) (xy -0.635 -0.635) (xy -1.27 0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.635) (xy 1.905 -0.635) (xy 1.27 0.635) (xy 0.635 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.635) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 129 255 190 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "D_TVS_4CH_Bidirectional"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1792,7 +2042,7 @@
 				)
 			)
 		)
-		(symbol "D_TVS_4CH_0_1"
+		(symbol "D_TVS_4CH_Bidirectional_0_1"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -4.445 0) (xy -4.699 0.254)
@@ -1890,7 +2140,7 @@
 				)
 			)
 		)
-		(symbol "D_TVS_4CH_1_0"
+		(symbol "D_TVS_4CH_Bidirectional_1_0"
 			(pin passive line
 				(at -3.81 3.81 270)
 				(length 2.54)
@@ -1982,7 +2232,7 @@
 				)
 			)
 		)
-		(symbol "D_TVS_4CH_1_1"
+		(symbol "D_TVS_4CH_Bidirectional_1_1"
 			(rectangle
 				(start -5.08 2.54)
 				(end 5.08 -2.54)
@@ -2124,6 +2374,390 @@
 				(stroke
 					(width 0.1524)
 					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "D_TVS_4CH_Unidirectional"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D?"
+			(at 5.715 1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VAL"
+			(at 5.715 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.508 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.508 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" ""
+			(at 1.143 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "PKG"
+			(at 5.715 -1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(symbol "D_TVS_4CH_Unidirectional_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0.635) (xy -4.445 0.635) (xy -4.699 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0.635) (xy -3.175 0.635) (xy -2.921 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy -1.905 0.635) (xy -2.159 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.635) (xy -0.635 0.635) (xy -0.381 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.635) (xy 0.635 0.635) (xy 0.381 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.635) (xy 1.905 0.635) (xy 2.159 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.635) (xy 3.175 0.635) (xy 2.921 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.635) (xy 4.445 0.635) (xy 4.699 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_TVS_4CH_Unidirectional_1_0"
+			(pin passive line
+				(at -3.81 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 3.81 270)
+				(length 3.175)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "D_TVS_4CH_Unidirectional_1_1"
+			(rectangle
+				(start -5.08 1.27)
+				(end 5.08 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -0.635) (xy -3.175 -0.635) (xy -3.81 0.635) (xy -4.445 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.635) (xy -0.635 -0.635) (xy -1.27 0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 129 255 190 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.635) (xy 1.905 -0.635) (xy 1.27 0.635) (xy 0.635 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 129 255 190 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 -0.635) (xy 4.445 -0.635) (xy 3.81 0.635) (xy 3.175 -0.635)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -0.635) (xy 3.81 -1.27) (xy -3.81 -1.27) (xy -3.81 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 129 255 190 1)
 				)
 				(fill
 					(type none)

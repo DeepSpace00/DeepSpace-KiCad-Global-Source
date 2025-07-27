@@ -1995,7 +1995,291 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RES_ARRAY_x8"
+	(symbol "R_Array_x4"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R?"
+			(at 1.27 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VAL"
+			(at 1.27 1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "TOL"
+			(at 1.27 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Power Rating" "PWR"
+			(at 1.27 -1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "PKG"
+			(at 1.27 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Array_x4_0_1"
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Array_x4_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Array_x4_2_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Array_x4_3_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Array_x4_4_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "R_Array_x8"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2052,7 +2336,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_0_1"
+		(symbol "R_Array_x8_0_1"
 			(polyline
 				(pts
 					(xy -0.635 1.27) (xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy -0.635 1.27)
@@ -2066,7 +2350,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_1_1"
+		(symbol "R_Array_x8_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2104,7 +2388,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_2_1"
+		(symbol "R_Array_x8_2_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2142,7 +2426,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_3_1"
+		(symbol "R_Array_x8_3_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2180,7 +2464,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_4_1"
+		(symbol "R_Array_x8_4_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2218,7 +2502,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_5_1"
+		(symbol "R_Array_x8_5_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2256,7 +2540,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_6_1"
+		(symbol "R_Array_x8_6_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2294,7 +2578,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_7_1"
+		(symbol "R_Array_x8_7_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2332,7 +2616,7 @@
 				)
 			)
 		)
-		(symbol "RES_ARRAY_x8_8_1"
+		(symbol "R_Array_x8_8_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
